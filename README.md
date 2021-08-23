@@ -1,16 +1,25 @@
 ## Table Of Content.
-- [1  ](https://github.com/Supaero-Computer-Science-Club/6502-game-of-GLIDER/tree/main/#1-the-hardware-toc                               ) The Hardware.
-- [2  ](https://github.com/Supaero-Computer-Science-Club/6502-game-of-GLIDER/tree/main/#2-the-software-technical-details-toc             ) The software: technical details.
-- [2.1](https://github.com/Supaero-Computer-Science-Club/6502-game-of-GLIDER/tree/main/#21-objects-binary-representations-toc            ) Objects binary representations.
-- [2.2](https://github.com/Supaero-Computer-Science-Club/6502-game-of-GLIDER/tree/main/#22-obstacles-array-structure-toc                 ) Obstacles array sructure.
-- [3  ](https://github.com/Supaero-Computer-Science-Club/6502-game-of-GLIDER/tree/main/#3-run-the-code-toc                               ) Run the code.
+- [1](https://github.com/AntoineStevan/vga-card/tree/main/#1-schematics-toc ) Schematics.
+- [2](https://github.com/AntoineStevan/vga-card/tree/main/#2-datasheets-toc ) Datasheets.
+- [3](https://github.com/AntoineStevan/vga-card/tree/main/#3-part-counts-toc) Part counts.
 
-| ![glider-debouncer-schematics.png](https://github.com/Supaero-Computer-Science-Club/6502-game-of-GLIDER/blob/main/res/glider-debouncer-schematics.png) | 
+## 1 Schematics. [[toc](https://github.com/AntoineStevan/vga-card/tree/main/#table-of-content)]
+| ![hsync.png](https://github.com/AntoineStevan/vga-card/blob/main/res/hsync.png) | 
 |:--:| 
-| *The Debouncer Circuit* |
+| *The hsync Circuit* |
 
-## 1 The Hardware. [[toc](https://github.com/Supaero-Computer-Science-Club/6502-game-of-GLIDER/tree/main/#table-of-content)]
+| ![vsync.png](https://github.com/AntoineStevan/vga-card/blob/main/res/vsync.png) | 
+|:--:| 
+| *The vsync Circuit* |
 
+| ![card.png](https://github.com/AntoineStevan/vga-card/blob/main/res/card.png) | 
+|:--:| 
+| *The complete Card* |
+
+## 2 Datasheets. [[toc](https://github.com/AntoineStevan/vga-card/tree/main/#table-of-content)]
+
+
+## 3 Part Counts. [[toc](https://github.com/AntoineStevan/vga-card/tree/main/#table-of-content)]
 | component   | hsync | vsync | sub-total:sync | card | integration |  sub-total:sync+int | transceiver |  total |
 |-------------|-------|-------|----------------|------|-------------|---------------------|-------------|--------|
 | flip-flop   |   12  |   12  |        24      |   1  |             |          25         |             |    25  |
