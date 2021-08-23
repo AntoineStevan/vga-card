@@ -1,3 +1,7 @@
+# Simple VGA card.
+This project is greatly based on the VGA "world's worst video card" from Ben Eater's Youtube channel.  
+One can find more information in his dedicated video series and [here](https://eater.net/vga).
+
 ## Table Of Content.
 - [1](https://github.com/AntoineStevan/vga-card/tree/main/#1-schematics-toc ) Schematics.
 - [2](https://github.com/AntoineStevan/vga-card/tree/main/#2-datasheets-toc ) Datasheets.
@@ -17,6 +21,7 @@
 | *The complete Card* |
 
 ## 2 Datasheets. [[toc](https://github.com/AntoineStevan/vga-card/tree/main/#table-of-content)]
+MM74HCT245 Octal 3-STATE Transceiver: [here](https://www.jameco.com/Jameco/Products/ProdDS/45031.pdf)
 
 
 ## 3 Part Counts. [[toc](https://github.com/AntoineStevan/vga-card/tree/main/#table-of-content)]
@@ -29,5 +34,5 @@
 | 2-NOR       |       |       |         0      |      |             |           0         |      18     |    18  |
 | 2-AND       |       |       |         0      |      |      1      |           1         |             |     1  |
 | transistor  |       |       |         0      |      |             |           0         |      32     |    32  |
-| logic tot.  |   17  |   13  |        30      |   2  |      2      |          34         |     115     |   149  |
 | memory tot. |   12  |   12  |        24      |   1  |      0      |          25         |       0     |    25  |
+| logic tot.  |   17  |   13  |        30      |   2  |      2      |          34         |     115     |   149  |
